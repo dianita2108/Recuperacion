@@ -1,0 +1,47 @@
+body{
+	background-image: url("fondo.jpg");
+	background-size: cover;
+	font-family:"Comic Sans MS", cursive;
+}
+table{
+	padding-top: 20px;
+	border: 4px dotted #000;
+}
+td{
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+input[type=text]{
+	padding-left: 10px;
+	border-radius: 7px;
+	box-shadow: 5px 5px #000;
+}
+input[type=submit]{
+	text-decoration: none;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	transition: all 0.5s linear;
+	box-shadow: 5px 5px brown;
+	color: brown;
+	font-weight: bold;
+	border: 2px #000;
+}
+input[type=submit]:hover{
+	background-color: brown;
+	color: #fff;
+	box-shadow: 5px 5px #000;
+	font-weight: bold;
+}
+.content{
+	margin-top: 200px;
+}
+.acertado {
+	color:#f00;font-weight:bold;
+}
+.fin{
+	font-weight:bold;
+}
+.error{
+	color:green;
+}
