@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript - Juego adivinar un numero</title>
+	<link rel="stylesheet" type="text/css" href="juego.css">
+	<script type="text/javascript" src="juego.js"></script>
+</head>
+
+<body>
+	<center>
+		<div class="content">
+			<h1>Adivina un número entre 1 y 200</h1>
+			<form onsubmit="return adivinar()">
+				<table>
+					<tr>
+						<td>Indica el número de intentos posibles:</td>
+						<td><input type="text" name="numeroRespuestas" id="numeroRespuestas"></td>
+					</tr>
+
+					<tr>
+						<td>Indica un numero entre 1 y 200:</td>
+						<td><input type="text" name="numero" id="numero" disabled></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center"><input type="submit" value="Enviar" id="btnEnviar"></td>
+					</tr>
+				</table>
+			</form>
+
+			<div id="respuestas"></div>
+		</div>
+	</center>
+</body>
+</html>
